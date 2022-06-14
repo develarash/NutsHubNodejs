@@ -1,0 +1,39 @@
+.addNewProduct {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: olive;
+  min-height: 80vh;
+  margin-top: 20px;
+  &-h1 {
+    color: whitesmoke;
+    background-color: peru;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-section {
+    text-align: center;
+    width: 50%;
+    background-color: red;
+    label {
+      display: block;
+    }
+    input[type="text"] {
+      padding: 0.6em  0.6em;
+      margin: 0.5em 0;
+     
+      border: 2px transparent solid;
+      border-radius: 8px;
+
+    }
+    input[type="text"]:focus {
+        border: 2px rebeccapurple solid;
+        outline: none;
+
+      }
+  }
+}
